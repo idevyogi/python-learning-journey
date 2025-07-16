@@ -21,7 +21,7 @@ print("Hello" + input("What is your name?"))
 # Thonny is available for windows it is helpful in understanding how compiler reading code
 # Appliction link - https://thonny.org
 
-# Python Variables (Variable is temporary value holder contianer)
+# Python Variables (Variable is temporary value holder container)
 name = input("What is your name?")
 print(name)
 
