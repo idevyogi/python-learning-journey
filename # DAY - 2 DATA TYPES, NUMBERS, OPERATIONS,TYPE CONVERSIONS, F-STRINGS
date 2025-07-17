@@ -1,0 +1,25 @@
+# DAY - 2 DATA TYPES, NUMBERS, OPERATIONS,TYPE CONVERSIONS, F-STRINGS
+
+# PYTHON PRIMITVE DATA TYPE
+
+print(len("123456"))
+print("HELLO"[4])
+print("HELLO"[-1])
+
+#STRING
+print("123" + "345")
+
+# INTEGER = WHOLE NUMBER
+print(123 + 345)
+
+# LARGE INTEGER 1,000,000 JUST AS MONEY USAGE
+print(123,456,789) # it will give us space between number
+print(123_456_789) # replace comma with underscore it will not print space
+
+# FLOAT = FLOATING POINT NUMBER
+print(3.14159)
+
+#BOOLEAN
+print(True)
+print(False)
+
