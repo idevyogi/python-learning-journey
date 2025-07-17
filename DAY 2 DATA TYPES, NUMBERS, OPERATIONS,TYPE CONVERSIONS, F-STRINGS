@@ -52,6 +52,26 @@ print(6/3) # it will print as <class 'float'>
 print(6//3) # it will print as <class 'int'>
 print(2**2) #it is 2  power 2 type operator (Exponents Operator )
 
+# ASSIGNMENT OPERATOR
+score = 0
+# [ += , -= , *= , /= ]
+score = score + 1 # we can written this in one more way with assignment operator
+score += 1
+print(score)
+
+# NUMBER MANIPULATION AND F STRINGS IN PYTHON
+
+# round() it will give nearby value
+print(round(3.9)) # it will print 4
+
+# USE OF F STRINGS
+# From use of set of curly braces we can use variable value live into string
+
+marks= 0
+height =1.0
+is_winning = True
+print(f"Your marks is = {marks}, your height is {height}. You are winning is {is_winning}")
+
 
 
 
