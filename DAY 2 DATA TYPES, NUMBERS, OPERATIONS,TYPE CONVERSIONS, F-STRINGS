@@ -23,3 +23,20 @@ print(3.14159)
 print(True)
 print(False)
 
+# TYPE ERROR, TYPE CHECKING AND TYPE CONVERSION
+
+name = len(str(12345)) # without double coded still we use it as string
+print(name) # and we know len() work in only string data type
+
+print(int("123") + int("456"))
+
+# only one blank line you can live in code after last line of code
+
+# for check out data type - type()
+print(type("Hello")) # print() must required to check out type()
+
+print(type(1234))
+print(type(True))
+print(type(3.123))
+
+
