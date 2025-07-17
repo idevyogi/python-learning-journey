@@ -39,4 +39,19 @@ print(type(1234))
 print(type(True))
 print(type(3.123))
 
+# MATHEMATICAL OPERATIONS IN PYTHON
+
+# PEMDAS
+# CODE WILL READ IN THIS WAY
+# ( Parentheses , Exponents,Multiplication/Division,Addition/Subtraction )
+print("My age:" + str(12))
+print(123 + 456)
+print(7-3)
+print(3*2)
+print(6/3) # it will print as <class 'float'>
+print(6//3) # it will print as <class 'int'>
+print(2**2) #it is 2  power 2 type operator (Exponents Operator )
+
+
+
 
