@@ -1,4 +1,6 @@
 # Control Flow with if / else and Conditional Operators
+
+# Note : with else we did not write condition it is just blank 
 '''
 if condition:
     do this
