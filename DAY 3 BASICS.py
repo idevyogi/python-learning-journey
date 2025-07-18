@@ -21,7 +21,7 @@ else:
 # Excercise to Check odd and even number
 a = int(input("Enter the value to check \n it is odd or even"))
 b = a % 2
-if b>0 :
-    print("it is odd number")
-else:
+if b == 0 :
     print("it is even number")
+else:
+    print("it is odd number")
