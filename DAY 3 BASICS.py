@@ -66,5 +66,43 @@ if height > 120:
 else:
     print("Sorry you have to grow taller")
 
+# Multiple If Statements in Succession
+# Fun Fact : we use it in same indentation as our if/elif/else statements
+# Indentation is very very important always keep in mind
+
+# if condition1:
+#    do A
+# if condition2:
+#    do B
+# if condition3:
+#    do C
+
+print("Welcome to the rollercoaster")
+height= int(input("What is your height in cm ? "))
+bill = 0
+if height > 120:
+    print("You can ride the rollercoaster")
+    age = int(input("What is your age"))
+    if age<= 12:
+        bill = 5
+        print("Child ticket is $5")
+    elif age <= 18 :
+        bill = 7
+        print("Youth ticket is $7.")
+    else:
+        bill = 12
+        print("Adult ticket is $12")
+
+    want_photo = input("Do you want to have a photo take? Type y for yes and n for No.")
+    if want_photo == "y" :
+        # Add 3$ to the bill
+        bill += 3
+
+    print(f"Your final bill is {bill}")
+
+else:
+    print("Sorry you have to grow taller")
+
+
 
 
