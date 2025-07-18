@@ -1,12 +1,25 @@
 # Control Flow with if / else and Conditional Operators
 
 # Note : with else we did not write condition it is just blank 
+
+# Logical Operators
+
+# A and B , C or D , not E
+# and it returns TRUE if both condition true
+# or it returns TRUE if one condition true
+# not It is used to reverse the result of a condition
+
 '''
 if condition:
     do this
 else:
     do this
 '''
+
+# if condition & condition2 & condition3:
+#     do this
+# else:
+#     do this
 
 print("Welcome to the rollercoaster")
 height= int(input("What is your height in cm ? "))
