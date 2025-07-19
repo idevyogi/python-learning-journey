@@ -26,3 +26,19 @@ else:
     print("Tails")
 
 
+#Understanding the Offset and Appending Items to Lists
+#             0       1
+# fruits = [item1, item2]
+fruits = ["Cherry","Apple","Pear"]
+states_of_america = ["Delware","Pennsylvania","New Jersey","","Georgia"]
+print(states_of_america[0])
+
+print(states_of_america[-1]) #it will count from last of list
+states_of_america[-2] = "Dev Yogi"  # we can set list also in exisiting position of list
+print(states_of_america[-2])
+
+states_of_america.append("Angelaaland") # we can add new item in the list
+print(states_of_america)
+
+states_of_america.extend(["Jack Bauer Land","New York"]) # list + list
+print(states_of_america)
