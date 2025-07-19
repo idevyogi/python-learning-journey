@@ -1,0 +1,28 @@
+# Begninner - Randomisation and  Python Lists
+# Fun Fact - i dont know about ASCII ART
+# RANDOM MODULE ( Modules is the pre written code )
+
+
+import random
+a =1
+b=10
+
+random_integer=random.randint(a,b)
+print(random_integer)
+
+
+random_number_0_to_1 = random.random() # this fn used most for random fn
+print(random_number_0_to_1)
+
+random_float = random.uniform(a,b)
+print(random_float)
+
+a=0
+b=1
+random_heads_or_tails=random.randint(a,b)
+if random_heads_or_tails ==0:
+    print("Head")
+else:
+    print("Tails")
+
+
