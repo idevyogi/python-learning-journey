@@ -27,9 +27,12 @@ else:
 
 
 #Understanding the Offset and Appending Items to Lists
+
+
 #             0       1
 # fruits = [item1, item2]
 fruits = ["Cherry","Apple","Pear"]
+
 states_of_america = ["Delware","Pennsylvania","New Jersey","","Georgia"]
 print(states_of_america[0])
 
@@ -42,3 +45,18 @@ print(states_of_america)
 
 states_of_america.extend(["Jack Bauer Land","New York"]) # list + list
 print(states_of_america)
+
+# Who will pay the bill?
+
+import random
+friends=["Alice","Bob","Charlie","David","Emanuel"]
+
+# Option 1
+print(random.choice(friends))
+
+# Option 2
+Bill_Payer = random.choice(friends)  # in case of list for pick name of list randomaly
+print( Bill_Payer)
+
+
+
