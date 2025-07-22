@@ -1,1 +1,22 @@
+# Beginner - python Functions & karel
 
+# Defining and Calling Python Functions
+
+# Defining Functions
+# def my_function():
+    #Do this
+    #Then do this
+    #Finally do this
+
+# Calling Functions
+    # my_function()
+
+print("hello")
+num_char = len("Hello")
+print(num_char)
+
+def my_function():
+    print("Hello world")
+    print("Bye")
+
+my_function()
