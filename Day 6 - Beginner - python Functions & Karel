@@ -20,3 +20,22 @@ def my_function():
     print("Bye")
 
 my_function()
+
+
+# While Loops
+
+# while
+
+# while something_is_true:
+    #Do something repeatedly
+    #Then do this
+    #Then do this
+
+# Infinite Loop
+
+# while 5>3:
+    #Do this
+    #Then do this
+    #Then do this
+
+
