@@ -13,15 +13,6 @@
 
 # The Hurdles Loop Challenges 
 Link - https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%201&url=worlds%2Ftutorial_en%2Fhurdle1.json
-print("hello")
-num_char = len("Hello")
-print(num_char)
-
-def my_function():
-    print("Hello world")
-    print("Bye")
-
-my_function()
 
 def turn_around():
     turn_left()
@@ -29,16 +20,18 @@ def turn_around():
 def turn_right():
     turn_around()
     turn_left()
-
-turn_left()
-move()
-turn_right()
-move()
-turn_right()
-move()
-turn_right()
-move()
-
+def jump():
+    move()
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+    
+for step in range(6):
+    jump()
 
 # While Loops
 
