@@ -55,6 +55,14 @@ foor number in range(a,b)
     #Then do this
     #Then do this
 
+# Hurdle Challenge for loop
+number_of_hurdles = 6
+while at_goal() != True:
+    jump()
+    number_of_hurdles -= 1
+    print(number_of_hurdles)
+
+
 # Infinite Loop
 
 # while 5>3:
