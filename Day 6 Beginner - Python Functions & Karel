@@ -34,6 +34,12 @@ def jump():
 for step in range(6):
     jump()
 
+# For Loop
+for item in list_of_items:
+    #Do something to each item
+
+foor number in range(a,b)
+    print(number)
 # While Loops
 
 # while
