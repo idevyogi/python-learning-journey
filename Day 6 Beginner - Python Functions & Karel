@@ -60,7 +60,10 @@ foor number in range(a,b)
 while at_goal() != True:
     jump()
 
+
+NOTE - For in some ways our while loop act as a infinite loop and for loop in iterative way and in limited way.
 # Infinite Loop
+
 
 # while 5>3:
     #Do this
