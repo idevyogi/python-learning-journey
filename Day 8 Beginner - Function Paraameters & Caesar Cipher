@@ -1,1 +1,19 @@
 
+# Functions with inputs
+
+# def my_function(something):
+    #Do this with something
+    #then do this
+    #Finally do this
+
+# something - (parameter)
+# 123 (value that given ) - argument
+
+def greet_with_name(name):
+    print(f"Hello {name}")
+    print(f"{name} is her wife")
+greet_with_name("Chiku")
+
+
+
+
