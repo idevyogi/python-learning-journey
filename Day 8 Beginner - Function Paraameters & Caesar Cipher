@@ -14,6 +14,20 @@ def greet_with_name(name):
     print(f"{name} is her wife")
 greet_with_name("Chiku")
 
+# function with more than 1 input
 
+def greet_with(name, location):
+    print(f"hey {name} this is my {location}")
+
+greet_with("Dev Yogi","Delhi NCR")
+
+# Positional Arguments
+# in this we insert value one by one in this
+# def my_function(a,b,c):
+# Do this with a
+# Then do this with b
+# finally do this with c
+
+  
 
 
